@@ -40,4 +40,4 @@ A collection of computer vision scripts and projects exploring the capabilities 
 * Matplotlib (`pip install matplotlib`)
 
 ## Notes
-* Images and video paths are currently configured for a local macOS environment (`/Users/rithwik/Desktop/...`). To run these scripts, update the file paths to match your local machine.
+* Images and video paths are currently configured for a local macOS environment for images/videos in the same folder as the python file (ex.(`garden.png`)). To run these scripts, update the file paths to match your local machine.
