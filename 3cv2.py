@@ -5,7 +5,7 @@ img = cv.imread('rubberDuck.png')
 # Convert color
 img_hsv = cv.cvtColor(img, cv.COLOR_BGR2HSV)
 
-# Define the range for 'Yellow' in OpenCV HSV format [cite: 81]
+# Define the range for 'Yellow' in OpenCV HSV format
 lower_yellow = (15, 100, 100)
 upper_yellow = (35, 255, 255)
 
