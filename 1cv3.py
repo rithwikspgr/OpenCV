@@ -30,7 +30,7 @@ if img is not None:
     # Show both original and resized versions
     cv.imshow('Original Image', img)
     cv.imshow('Resized Image', resized_img)
-    cv.waitKey(0) # Program waits here until you press a key [cite: 79]
+    cv.waitKey(0) # Program waits here until you press a key
 else:
     print(f"ERROR: Could not find image at {path}")
     print("Check if the file is actually on your Desktop and named correctly.")
